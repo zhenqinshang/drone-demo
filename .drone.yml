@@ -4,7 +4,7 @@ name: build
 steps:
 - name: build
   image: golang:alpine
-  pull: if-not-exists # always never
+  pull: if-not-exists # always never #
   environment:
     KEY: VALUE
   commands:
